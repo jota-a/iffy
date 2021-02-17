@@ -45,26 +45,6 @@ a:hover{
   animation-timing-function: ease-in-out;
 }
 
-
-.logo{
-width:100px;
-height:100px;
-backface-visibility: hidden;
-}
-
-/* .logo:hover{
-  width:100px;
-  height:100px;
-  transition: .75s ease;
-  opacity: 0;
-}
-
-.logo2{
-width:100px;
-height:100px;
-backface-visibility: hidden;
-} */
-
 .logo{
 width:100px;
 height:100px;
