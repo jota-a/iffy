@@ -37,15 +37,49 @@ a:hover{
   flex-direction: row;
   justify-content:space-around;
   align-items: center;
-  width:100vw;
+  margin-left:33vw;
+  width:33vw;
   height:20vh;
-  background-color:red;
+  background-color:;
 }
 
 .social-item{
   width:50px;
   height:50px;
+  background-color:;
+background-image: url(instagram.svg);
+}
 
+.social-item2{
+  width:50px;
+  height:50px;
+  background-color:;
+background-image: url(twitter.svg);
+}
+
+.social-item3{
+  width:50px;
+  height:50px;
+  background-color:;
+background-image: url(spotify.svg);
+}
+
+.social-item:hover{
+  width:50px;
+  height:50px;
+background-image: url(instagram2.svg);
+}
+
+.social-item2:hover{
+  width:50px;
+  height:50px;
+background-image: url(twitter2.svg);
+}
+
+.social-item3:hover{
+  width:50px;
+  height:50px;
+  background-image: url(spotify2.svg);
 }
 
 .logo{
