@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+  <title>radio</title>
+
+  <link rel="stylesheet" href="iffy.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+<link rel="stylesheet" href="radio.css" type="text/css" charset="utf-8" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="maincontainer">
+  <div class="header">
+
+  <a class="logo" href="index.html"></a>
+
+  <div class="header-item"><a href="about.html">about</a></div>
+
+    <div class="header-item"><a href="radio.html">radio</a></div>
+
+      <div class="header-item"><a href="read.html">read</a></div>
+
+        <div class="header-item"><a href="shop.html">shop</a></div>
+</div>
+
+  <div class="mix-container">
+
+    <div class="mix-items">
+    <details>
+      <summary>iffy radio 1</summary>
+      <p>Our spotlight in this volume falls on: Bktherula, Current Joys,<br> Mavi, Pro Vita, PuddaH, and Sports Team</p>
+      <audio controls="controls">
+    <source src="https://docs.google.com/uc?export=download&id=19QiyFEsaOV6jhvdP7VKwf8brYGY96LZ2">
+  </audio>
+    </details>
+    <!-- https://stackoverflow.com/questions/32392072/how-to-play-google-drive-mp3-file-using-html-audio-tag -->
+    <!-- https://github.com/greghub/green-audio-player -->
+    </div>
+
+    <div class="mix-items">
+    <details>
+      <summary>iffy radio 2</summary>
+      <p>Our spotlight in this volume falls on: Beach Fossils, Dean Blunt,<br> Dwn2earth, Indica, SALES, and Surf Curse</p>
+    </details></div>
+  </div>
+
+<div class="spotify-wrapper">
+<div class="spotify-label">Spotify</div><a class="spotify-logo" href="https://open.spotify.com/user/jotaaaa_?si=bTIdTt_vRnyr4cZrwr7yIg"></a>
+</div>
+
+  <div class="spotify-grid">
+
+<div class="grid-row">
+
+<div><img class="embed-cover" src="iffyr1.jpg"><iframe src="https://open.spotify.com/embed/playlist/3Jt0rpvYxFsaBhJJIIBtbx" class="embed" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
+<div><img class="embed-cover" src="extraextra.jpg"><iframe src="https://open.spotify.com/embed/playlist/7FnamtoI6GdKhaSQH9k3Kb" class="embed" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
+<div><img class="embed-cover" src="iffyr2.jpg"><iframe src="https://open.spotify.com/embed/playlist/0xeB99jYzKoAQqOfSq0Nb7" class="embed" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
+</div>
+<div class="grid-row">
+  <div><img class="embed-cover" src="extraextra2.jpg"><iframe src="https://open.spotify.com/embed/playlist/6oYRVNaglGvL9kxKbwIW1s" class="embed" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
+  <div class="embed"></div>
+  <div class="embed"></div>
+</div>
+
+  </div>
+
+</div>
+
+  <svg id="fader"></svg>
+  <script>
+  fadeInPage();
+  function fadeInPage(){
+    if (!window.AnimationEvent) {return;}
+    var fader = document.getElementById('fader');
+    fader.classList.add('fade-out');
+  }
+  </script>
+  </body>
+
+  </html>
