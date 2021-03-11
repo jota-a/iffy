@@ -1,0 +1,186 @@
+body{
+  margin: 0;
+  background-color: black;
+}
+
+a:link{
+  text-decoration: none;
+color:white;
+}
+a:visited{
+  text-decoration: none;
+  color:white;
+}
+a:hover{
+  text-decoration: none;
+  color:grey;
+}
+
+
+.header{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;
+  width:100vw;
+  height:20vh;
+  background-color:;
+}
+
+.header-item{
+  font-size: 48pt;
+  font-family: 'Skippy Sharpie', sans-serif;
+  color: white;
+  background-color:;
+}
+
+#fader{
+  position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 999999;
+  pointer-events: none;
+  background: black;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+.logo{
+width:100px;
+height:100px;
+background-image: url(logo3.svg);
+backface-visibility: hidden;
+display: block;
+}
+
+.logo:hover{
+  width:100px;
+  height:100px;
+  transition: .75s ease;
+  background-image: url(logo4.svg);
+
+}
+
+.masthead{
+  font-size: 24pt;
+  font-family: 'Skippy Sharpie', sans-serif;
+  color:white;
+  text-align: center;
+  justify-content: center;
+  position:;
+margin-left:2.5%;
+margin-top: 5%;
+}
+
+/* flickity carousel from aidan */
+
+/* ..........CAROUSEL.......... */
+
+.panel{
+  width:100%;
+}
+
+.carousel {
+  width:100%;
+  position: relative;
+  /* margin-bottom: 1rem;
+  transition: opacity 0.4s;
+  -webkit-transition: opacity 0.4s;
+  -moz-transition:  opacity 0.4s;
+  -o-transition:  opacity 0.4s; */
+}
+
+.carousel.is-hidden {
+  opacity: 0;
+}
+
+.carousel.flickity-enabled {
+  opacity: 1;
+}
+
+.cell {
+  display:flex;
+  justify-content: center;
+  width: 100%;
+  height:300px;
+}
+.cell img{
+  height:100%;
+}
+
+/* .carousel-status {
+  font-family: 'PT Mono', monospace;
+  text-align: center;
+  margin: 0;
+  font-size: .88rem;
+  height: 1rem;
+  opacity: .7;
+} */
+
+/* .carousel-status p {
+  margin: 0;
+} */
+
+.cell-img {
+  display: block;
+  min-width: 100%;
+  opacity: 0;
+  transition: opacity 0.4s;
+  -webkit-transition: opacity 0.4s;
+  -moz-transition:  opacity 0.4s;
+  -o-transition:  opacity 0.4s;
+}
+
+.cell-img.flickity-lazyloaded, .cell-img.flickity-lazyerror {
+  opacity: 1;
+}
+
+.carousel-black {
+  background: rgb(7, 7, 7);
+}
+
+/* RESPONSIVE CAROUSEL */
+@media (min-width:800px) {
+  .carousel {
+    margin-bottom: 0;
+  }
+  .carousel-status {
+    text-align: right;
+    margin-top: 1rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+  }
+}
+
+/* ..........END CAROUSEL.......... */
+
+@font-face{
+	font-family: 'Skippy Sharpie';
+	src: url('WebFont.eot');
+	src: url('WebFont.eot?#iefix') format('embedded-opentype'),
+	     url('skippysharpie-webfont.woff') format('woff'),
+	     url('WebFont.ttf') format('truetype'),
+	     url('WebFont.svg#webfont') format('svg');
+}
+
+@keyframes fade-out {
+    from { opacity: 1 }
+      to { opacity: 0 }
+}
+
+@keyframes fade-in {
+    from { opacity: 0 }
+      to { opacity: 1 }
+}
+
+#fader.fade-out {
+    opacity: 0;
+    animation-name: fade-out;
+}
+
+#fader.fade-in {
+    opacity: 1;
+    animation-name: fade-in;
+}

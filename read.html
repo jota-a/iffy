@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+  <title>read</title>
+
+<link rel="stylesheet" href="css/flickity.css" media="screen">
+  <link rel="stylesheet" href="css/read.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+
+<body>
+
+  <div class="header">
+
+  <a class="logo" href="index.html"></a>
+
+  <div class="header-item"><a href="about.html">about</a></div>
+
+    <div class="header-item"><a href="radio.html">radio</a></div>
+
+      <div class="header-item"><a href="read.html">read</a></div>
+
+        <div class="header-item"><a href="shop.html">shop</a></div>
+</div>
+
+<div class="masthead">artists we admire will always have a place here.<br>our booklets feature a description of their sound and where<br>you can find out more about them.</div>
+
+<div class="panel">
+    <div class="carousel">
+<div class="cell"><img src="test.jpg"></div>
+<div class="cell"><img src="test2.jpg"></div>
+<div class="cell"><img src="test3.jpg"></div>
+    </div>
+  </div>
+
+
+    <svg id="fader"></svg>
+    <script>
+    fadeInPage();
+    function fadeInPage(){
+      if (!window.AnimationEvent) {return;}
+      var fader = document.getElementById('fader');
+      fader.classList.add('fade-out');
+    }
+    </script>
+
+
+
+    <!-- <script>
+    (function($){
+
+    $(document).ready(function(){
+
+      $('.carousel').flickity({
+    cellAlighn:'left',
+    wrapAround:true
+      });
+
+    });
+
+  })
+    </script> -->
+
+
+<script src="js/flickity.pkgd.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.marquee.min.js"></script>
+<script src="js/functions.js"></script>
+  </body>
+
+  </html>

@@ -43,10 +43,6 @@ details{
   text-align:left;
 }
 
-iframe{
-
-}
-
 .maincontainer{
   width:auto;
   height:auto;
@@ -92,12 +88,6 @@ iframe{
   height:;
   background-color:;
   margin-top: 10vh;
-}
-
-.mix-items{
-  display:flex;
-  flex-direction: row;
-  background-color:;
 }
 
 .radio1{
@@ -146,8 +136,6 @@ background-image: url(spotify2.svg);
   align-self: center;
   align-items: center;
   width:100vw;
-  /* height:615px; */
-  /* ^ this is necessary to have vertical space between two rows? :( */
   background-color:black;
   margin-top:2vh;
 }
@@ -157,7 +145,6 @@ background-image: url(spotify2.svg);
   flex-wrap:wrap;
   flex-direction:row;
   width:100vw;
-  /* height:300px; */
   background-color:;
   justify-content:space-between;
 }
@@ -183,11 +170,6 @@ background-image: url(spotify2.svg);
       position:absolute;
 
 }
-
-/* .embed-cover:hover{
-  opacity: 0;
-    transition: .5s ease;
-} */
 
 .embed:hover{
   opacity: 1;
