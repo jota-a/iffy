@@ -6,12 +6,13 @@ https://flickity.metafizzy.co
   position: relative;
 }
 
-.flickity-enabled:focus { outline: none; }
+.flickity-enabled:focus { outline:none; }
 
 .flickity-viewport {
-  overflow: hidden;
+  overflow:hidden;
   position: relative;
   height: 100%;
+
 }
 
 .flickity-viewport:hover {
@@ -53,14 +54,13 @@ https://flickity.metafizzy.co
   position: absolute;
   background: none;
   border: none;
-  color: #333;
 }
 
 .flickity-button:hover {
   /* background: none; */
   cursor: pointer;
   border-radius: 30%;
-  background: rgb(242, 220, 165);
+  background:grey;
 }
 
 .flickity-button:focus {
@@ -90,15 +90,16 @@ https://flickity.metafizzy.co
 /* ---- previous/next buttons ---- */
 
 .flickity-prev-next-button {
-  /* top: 50%; */
   bottom: -2.5rem;
   width: 1.5rem;
   height: 1.5rem;
-  /* background:red; */
-  /* border-radius: 50%; */
+  background:white;
+  border-radius: 30%;
+  opacity:90%;
+  margin-left:48vw;
   /* vertically center */
-  /* transform: translateY(-50%); */
-  visibility: hidden;
+  transform: translateY(-50%);
+
   z-index: 1;
 }
 

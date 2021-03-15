@@ -64,6 +64,14 @@ background-image: url(twitter.svg);
 background-image: url(spotify.svg);
 }
 
+.social-item4{
+  width:50px;
+  height:50px;
+  background-color:;
+background-image: url(email.svg);
+}
+
+
 .social-item:hover{
   width:50px;
   height:50px;
@@ -80,6 +88,12 @@ background-image: url(twitter2.svg);
   width:50px;
   height:50px;
   background-image: url(spotify2.svg);
+}
+
+.social-item4:hover{
+  width:50px;
+  height:50px;
+  background-image: url(email2.svg);
 }
 
 .logo{
@@ -104,9 +118,9 @@ display: block;
   text-align: center;
   justify-content: center;
   position:;
-  margin-left:20%;
+  margin-left:10%;
 margin-top:3%;
-width:60vw;
+width:80vw;
 }
 
 #fader{

@@ -71,7 +71,15 @@ display: block;
   justify-content: center;
   position:;
 margin-left:2.5%;
-margin-top: 5%;
+margin-top: 10%;
+margin-bottom:;
+}
+
+.book-title{
+  color:white;
+  font-size: 24pt;
+  font-family: 'Skippy Sharpie', sans-serif;
+  margin-left: 75vw;
 }
 
 /* flickity carousel from aidan */
@@ -79,17 +87,17 @@ margin-top: 5%;
 /* ..........CAROUSEL.......... */
 
 .panel{
-  width:100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width:100vw;
+  margin-top:75px;
 }
 
 .carousel {
   width:100%;
   position: relative;
-  /* margin-bottom: 1rem;
-  transition: opacity 0.4s;
-  -webkit-transition: opacity 0.4s;
-  -moz-transition:  opacity 0.4s;
-  -o-transition:  opacity 0.4s; */
+
 }
 
 .carousel.is-hidden {
@@ -103,10 +111,10 @@ margin-top: 5%;
 .cell {
   display:flex;
   justify-content: center;
-  width: 100%;
-  height:300px;
+  width:100%;
 }
 .cell img{
+  width:100%;
   height:100%;
 }
 
