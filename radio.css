@@ -103,6 +103,18 @@ details > summary::-webkit-details-marker {
   width:50vw;
 }
 
+.notes{
+  margin-top: 10vh;
+  width:100vw;
+  height:25vw;
+  background-color:;
+  object-fit: fill;
+  background-image: url(notes.gif);
+background-size:cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
 .spotify-wrapper{
   display: flex;
   flex-direction: row;
