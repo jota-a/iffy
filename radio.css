@@ -35,12 +35,19 @@ summary:hover{
 }
 
 summary::-webkit-details-marker{
-  display: none;
+  display:none;
 }
 
 details{
   margin-left:50px;
   text-align:left;
+}
+
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
 }
 
 .maincontainer{
