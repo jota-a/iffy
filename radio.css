@@ -106,10 +106,10 @@ details > summary::-webkit-details-marker {
 .notes{
   margin-top: 10vh;
   width:100vw;
-  height:25vw;
+  height:21vw;
   background-color:;
   object-fit: fill;
-  background-image: url(notes.gif);
+  background-image: url(notes2.gif);
 background-size:cover;
 background-repeat: no-repeat;
 background-position: center;
