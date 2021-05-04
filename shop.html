@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <title>shop</title>
+
+  <link rel="stylesheet" href="shop.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+<link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+</head>
+
+<body>
+
+  <div class="header">
+
+  <a class="logo" href="index.html"></a>
+
+  <div class="header-item"><a href="about.html">about</a></div>
+
+    <div class="header-item"><a href="radio.html">radio</a></div>
+
+      <div class="header-item"><a href="read.html">read</a></div>
+
+        <div class="header-item"><a href="shop.html">shop</a></div>
+</div>
+
+<div class="iffymasthead">nothing to see here...yet</div>
+
+<svg id="fader"></svg>
+<script>
+fadeInPage();
+function fadeInPage(){
+  if (!window.AnimationEvent) {return;}
+  var fader = document.getElementById('fader');
+  fader.classList.add('fade-out');
+}
+</script>
+  </body>
+
+  </html>

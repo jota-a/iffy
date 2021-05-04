@@ -1,0 +1,102 @@
+body{
+  margin: 0;
+}
+
+a:link{
+  text-decoration: none;
+color:black;
+}
+a:visited{
+  text-decoration: none;
+  color:black;
+}
+a:hover{
+  text-decoration: none;
+  color:grey;
+}
+
+
+.header{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;
+  width:100vw;
+  height:20vh;
+  background-color:;
+}
+
+.header-item{
+  font-size: 48pt;
+  font-family: 'Skippy Sharpie', sans-serif;
+  background-color:;
+}
+
+#fader{
+  position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 999999;
+  pointer-events: none;
+  background: white;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
+.logo{
+width:100px;
+height:100px;
+background-image: url(logo.svg);
+backface-visibility: hidden;
+display: block;
+}
+
+.logo:hover{
+  width:100px;
+  height:100px;
+  transition: .75s ease;
+  background-image: url(logo2.svg);
+
+}
+
+.iffymasthead{
+  font-size: 30pt;
+  font-family: 'Skippy Sharpie', sans-serif;
+  text-align: center;
+  justify-content: center;
+  position:;
+margin-left:2.5%;
+margin-top: 18%;
+}
+
+
+@font-face{
+	font-family: 'Skippy Sharpie';
+	src: url('WebFont.eot');
+	src: url('WebFont.eot?#iefix') format('embedded-opentype'),
+	     url('skippysharpie-webfont.woff') format('woff'),
+	     url('WebFont.ttf') format('truetype'),
+	     url('WebFont.svg#webfont') format('svg');
+}
+
+@keyframes fade-out {
+    from { opacity: 1 }
+      to { opacity: 0 }
+}
+
+@keyframes fade-in {
+    from { opacity: 0 }
+      to { opacity: 1 }
+}
+
+#fader.fade-out {
+    opacity: 0;
+    animation-name: fade-out;
+}
+
+#fader.fade-in {
+    opacity: 1;
+    animation-name: fade-in;
+}
