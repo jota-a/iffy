@@ -123,6 +123,11 @@ margin-top:3%;
 width:80vw;
 }
 
+.iffymasthead::selection{
+color:white;
+background:black;
+}
+
 #fader{
   position: fixed;
    top: 0;

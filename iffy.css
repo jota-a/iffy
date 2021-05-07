@@ -71,6 +71,10 @@ margin-left:2.5%;
 margin-top: 18%;
 }
 
+.iffymasthead::selection{
+color:white;
+background:black;
+}
 
 @font-face{
 	font-family: 'Skippy Sharpie';

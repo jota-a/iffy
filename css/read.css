@@ -75,11 +75,21 @@ margin-top: 10%;
 margin-bottom:;
 }
 
+.masthead::selection{
+  color:black;
+  background:white;
+}
+
 .book-title{
   color:white;
   font-size: 24pt;
   font-family: 'Skippy Sharpie', sans-serif;
   margin-left: 75vw;
+}
+
+.book-title::selection{
+  color:black;
+  background:white;
 }
 
 /* flickity carousel from aidan */
