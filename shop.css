@@ -15,6 +15,11 @@ a:hover{
   color:grey;
 }
 
+p{
+  font-size: 24pt;
+  font-family: 'Skippy Sharpie', sans-serif;
+  background-color:;
+}
 
 .header{
   display:flex;
@@ -30,6 +35,66 @@ a:hover{
   font-size: 48pt;
   font-family: 'Skippy Sharpie', sans-serif;
   background-color:;
+}
+
+.grid{
+  display:flex;
+  flex-direction:column;
+  justify-content: space-around;
+  align-self: center;
+  align-items: center;
+  width:100vw;
+  height:;
+  background-color:;
+  margin-top:50px;
+}
+
+.grid-row{
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+  width:100vw;
+  height:33vw;
+  background-color:;
+  justify-content:space-between;
+}
+
+.grid-item{
+  width:33vw;
+  height:33vw;
+  background-color:;
+  display:flex;
+}
+
+div.grid-item a{
+        position:absolute;
+        width:33vw;
+        height:33vw;
+        top:;
+        left:;
+        text-decoration: none;
+        z-index:10;
+        opacity:;
+}
+
+.bloons{
+  display:flex;
+  position:absolute;
+  z-index:2;
+  text-align: center;
+  margin-left:8.25vw;
+  margin-top:27vw;
+}
+
+.bloonsbutton{
+  display:flex;
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  margin-left:8.25vw;
+  margin-top:25vw;
+  background-color:black;
+  color:white;
 }
 
 #fader{
