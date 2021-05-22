@@ -48,6 +48,7 @@ a:hover{
   height:50px;
   background-color:;
 background-image: url(instagram.svg);
+background-repeat: no-repeat;
 }
 
 .social-item2{
@@ -55,6 +56,7 @@ background-image: url(instagram.svg);
   height:50px;
   background-color:;
 background-image: url(twitter.svg);
+background-repeat: no-repeat;
 }
 
 .social-item3{
@@ -62,6 +64,7 @@ background-image: url(twitter.svg);
   height:50px;
   background-color:;
 background-image: url(spotify.svg);
+background-repeat: no-repeat;
 }
 
 .social-item4{
@@ -69,6 +72,7 @@ background-image: url(spotify.svg);
   height:50px;
   background-color:;
 background-image: url(email.svg);
+background-repeat: no-repeat;
 }
 
 
